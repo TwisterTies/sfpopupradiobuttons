@@ -1,0 +1,16 @@
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/SfPopupRadioButtons.csproj.AssemblyReference.cache
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/SfPopupRadioButtons.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/Popup.xaml.g.cs
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/SfPopupRadioButtons.AssemblyInfoInputs.cache
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/SfPopupRadioButtons.AssemblyInfo.cs
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/SfPopupRadioButtons.csproj.CoreCompileInputs.cache
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/bin/Debug/netstandard2.0/SfPopupRadioButtons.deps.json
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/bin/Debug/netstandard2.0/SfPopupRadioButtons.dll
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/bin/Debug/netstandard2.0/ref/SfPopupRadioButtons.dll
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/bin/Debug/netstandard2.0/SfPopupRadioButtons.pdb
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/SfPopupRadioButtons.dll
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/ref/SfPopupRadioButtons.dll
+/Users/ninesteenbeek/Projects/SfPopupRadioButtons/SfPopupRadioButtons/obj/Debug/netstandard2.0/SfPopupRadioButtons.pdb

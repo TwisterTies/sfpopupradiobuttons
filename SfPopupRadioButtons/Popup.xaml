@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SfPopup:SfPopupLayout xmlns="http://xamarin.com/schemas/2014/forms"
+                       xmlns:SfPopup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms"
+                       x:Class="SfPopupRadioButtons.SfPopup"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:vm="clr-namespace:SfPopupRadioButtons.ViewModels.Base"
+                       x:DataType="vm:PopupViewModel">
+
+    <SfPopup:SfPopupLayout.PopupView>
+        <SfPopup:PopupView
+
+            AutoSizeMode="Height"
+            ShowHeader="False"
+            ShowCloseButton="False"
+            ShowFooter="False"
+            WidthRequest="340"
+            BackgroundColor="White">
+
+        <SfPopup:PopupView.PopupStyle>
+            <SfPopup:PopupStyle
+                CornerRadius="0"
+                BorderThickness="0"/>
+        </SfPopup:PopupView.PopupStyle>
+
+        <SfPopup:PopupView.ContentTemplate>
+        <DataTemplate>
+            <StackLayout>
+                <Grid Padding="20,30" RowSpacing="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="44"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" LineHeight="1.2" Text="This is a title" x:Name="LabelTitle"/>
+
+            <Label Grid.Row="1" LineHeight="1.3" Text="Body text" x:Name="LabelBody"/>
+
+            <StackLayout HeightRequest="160"
+                         Grid.Row="2"
+                         RadioButtonGroup.GroupName="WeekSelection"
+                         RadioButtonGroup.SelectedValue="{Binding Selection}">
+                <RadioButton Padding="5"
+                             BackgroundColor="{DynamicResource BlockBackgroundColor}"       
+                             Content="Value 1"
+                             Value="Value 1"/>
+                <RadioButton Padding="5"
+                             BackgroundColor="{DynamicResource BlockBackgroundColor}"
+                             Content="Value 2"
+                             Value="Value 2"/>
+                <RadioButton Padding="5"
+                             BackgroundColor="{DynamicResource BlockBackgroundColor}"
+                             Content="Value 3"
+                             Value="Value 3"/>
+            </StackLayout>
+                <Button Command="{Binding RightButtonCommand}" HorizontalOptions="FillAndExpand" Text="Save" x:Name="RightButton"/>
+            </Grid>
+            </StackLayout>
+                </DataTemplate>
+                
+            </SfPopup:PopupView.ContentTemplate>
+        </SfPopup:PopupView>
+    </SfPopup:SfPopupLayout.PopupView>
+</SfPopup:SfPopupLayout>
+
