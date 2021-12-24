@@ -3,8 +3,7 @@
                        xmlns:SfPopup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms"
                        x:Class="SfPopupRadioButtons.SfPopup"
                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                       xmlns:vm="clr-namespace:SfPopupRadioButtons.ViewModels.Base"
-                       x:DataType="vm:PopupViewModel">
+                       xmlns:vm="clr-namespace:SfPopupRadioButtons.ViewModels.Base">
 
     <SfPopup:SfPopupLayout.PopupView>
         <SfPopup:PopupView
@@ -39,8 +38,7 @@
 
             <StackLayout HeightRequest="160"
                          Grid.Row="2"
-                         RadioButtonGroup.GroupName="WeekSelection"
-                         RadioButtonGroup.SelectedValue="{Binding Selection}">
+                         RadioButtonGroup.GroupName="WeekSelection">
                 <RadioButton Padding="5"
                              BackgroundColor="{DynamicResource BlockBackgroundColor}"       
                              Content="Value 1"
@@ -54,7 +52,8 @@
                              Content="Value 3"
                              Value="Value 3"/>
             </StackLayout>
-                <Button Command="{Binding RightButtonCommand}" HorizontalOptions="FillAndExpand" Text="Save" x:Name="RightButton"/>
+                <Label Text="Click outside of the popup to close it"
+                       TextColor="Black"/>
             </Grid>
             </StackLayout>
                 </DataTemplate>

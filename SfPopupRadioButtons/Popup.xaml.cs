@@ -6,10 +6,9 @@ namespace SfPopupRadioButtons
 {
     public partial class SfPopup : SfPopupLayout
     {
-        public SfPopup(PopupViewModel vm)
+        public SfPopup()
         {
             InitializeComponent();
-            BindingContext = vm;
         }
     }
 }

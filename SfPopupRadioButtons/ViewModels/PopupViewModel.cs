@@ -8,11 +8,7 @@ namespace SfPopupRadioButtons.ViewModels.Base
     {
         public PopupViewModel()
         {
-            RightButtonCommand = new Command(ClosePopup);
         }
-
-        public ICommand RightButtonCommand { get; }
-
     }
 }
         

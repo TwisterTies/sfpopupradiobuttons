@@ -6,25 +6,19 @@ namespace SfPopupRadioButtons.ViewModels
 {
     public class AppViewModel : BaseViewModel
     {
-        public static SfPopup SfPopup { get; set; }
+        SfPopup _sfPopup;
 
         public AppViewModel()
         {
             ShowPopupCommand = new Command(ShowPopup);
+            _sfPopup = new SfPopup();
         }
 
         public ICommand ShowPopupCommand { get; }
 
         public void ShowPopup()
         {
-            PopupViewModel popupViewModel = new PopupViewModel();
-            SfPopup = new SfPopup(popupViewModel);
-            SfPopup.Show();
-        }
-
-        public void ClosePopup()
-        {
-            SfPopup.Dismiss();
+            _sfPopup.Show();
         }
     }
 }
